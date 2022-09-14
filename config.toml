@@ -1,0 +1,74 @@
+baseURL = "https://dogancan.org"
+languageCode = "en-us"
+title = "Doğancan Özturan"
+theme = "cactus"
+copyright = "Doğancan Özturan" # cactus will use title if copyright is not set
+disqusShortname = "dogancan" # Used when comments is enabled. Cactus will use site title if not set
+# googleAnalytics = "UA-1234-5"
+
+
+summaryLength = 1
+
+[[menu.main]]
+name = "home"
+url = "/"
+weight = 1
+
+# Main menu which appears below site header.
+[[menu.main]]
+name = "email"
+url = "mailto:dozturan@gmail.com"
+weight = 2
+
+[[menu.main]]
+name = "twitter"
+url = "https://twitter.com/dogancan"
+weight = 3
+
+[[menu.main]]
+name = "scholar"
+url = "https://scholar.google.com.tr/citations?user=XkJXsgkAAAAJ&hl=tr&inst=17001591832933267808"
+weight = 4
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    style = "dracula"
+    tabWidth = 4
+
+[params]
+
+  colortheme = "classic" # dark, light, white, or classic
+  rss = true # generate rss feed. default value is false
+  googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
+  showAllPostsArchive = false # default
+
+  # Home page settings
+  description = "Postdoc @ Vancouver Prostate Centre"
+  mainSection = "posts" # your main section
+  showAllPostsOnHomePage = true # default
+  postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
+  tagsOverview = false # show tags overview by default.
+  showProjectsList = true # show projects list by default (if projects data file exists).
+  projectsUrl = "" # title link for projects list
+
+  # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
+  dateFormat = "January 2006" # default
+
+  # Post page settings
+  show_updated = true # default
+  showReadTime = true # default
+
+  [params.comments]
+    enabled = true # default
+    engine = "disqus" # only disqus, utterances, and cactus_comments is supported

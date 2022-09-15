@@ -6,7 +6,6 @@ copyright = "Doğancan Özturan" # cactus will use title if copyright is not set
 disqusShortname = "dogancan" # Used when comments is enabled. Cactus will use site title if not set
 # googleAnalytics = "UA-1234-5"
 
-
 summaryLength = 1
 
 [[menu.main]]

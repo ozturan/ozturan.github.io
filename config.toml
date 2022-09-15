@@ -29,6 +29,12 @@ name = "scholar"
 url = "https://scholar.google.com.tr/citations?user=XkJXsgkAAAAJ&hl=tr&inst=17001591832933267808"
 weight = 4
 
+
+[[menu.main]]
+name = "bookmarks"
+url = "https://pinboard.in/u:dogancan"
+weight = 5
+
 [markup]
   [markup.tableOfContents]
     endLevel = 4

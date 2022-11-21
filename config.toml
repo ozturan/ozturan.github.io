@@ -13,27 +13,15 @@ name = "home"
 url = "/"
 weight = 1
 
-# Main menu which appears below site header.
 [[menu.main]]
-name = "email"
-url = "mailto:dozturan@gmail.com"
+name = "about"
+url = "/about"
 weight = 2
-
-[[menu.main]]
-name = "twitter"
-url = "https://twitter.com/dogancan"
-weight = 3
-
-[[menu.main]]
-name = "scholar"
-url = "https://scholar.google.com.tr/citations?user=XkJXsgkAAAAJ&hl=tr&inst=17001591832933267808"
-weight = 4
-
 
 [[menu.main]]
 name = "bookmarks"
 url = "https://pinboard.in/u:dogancan"
-weight = 5
+weight = 3
 
 [markup]
   [markup.tableOfContents]
@@ -59,7 +47,7 @@ weight = 5
   showAllPostsArchive = false # default
 
   # Home page settings
-  description = "Postdoc @ Vancouver Prostate Centre"
+  description = "Hi! My name is Doğancan. I’ve received my PhD in biomedical sciences from [Koç University](https://www.ku.edu.tr) and currently working as a postdoctoral research fellow at [Vancouver Prostate Centre](https://www.prostatecentre.com/) in [University of British Columbia](https://ubc.ca). I’m working on androgen receptor biology and its working mechanisms in transcription."
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = true # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
@@ -77,3 +65,16 @@ weight = 5
   [params.comments]
     enabled = true # default
     engine = "disqus" # only disqus, utterances, and cactus_comments is supported
+
+  [[params.social]]
+    name = "email"
+    link = "dozturan at gmail dot com"  # no need for "mailto:" in the head
+  [[params.social]]
+    name = "scholar"
+    link = "https://scholar.google.com/citations?user=XkJXsgkAAAAJ&hl=en&inst=17001591832933267808"
+  [[params.social]]
+    name = "linkedin"
+    link = "https://www.linkedin.com/in/dozturan"
+  [[params.social]]
+    name = "twitter"
+    link = "https://twitter.com/dogancan"  # no need for "mailto:" in the head

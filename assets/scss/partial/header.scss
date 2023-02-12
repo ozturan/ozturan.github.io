@@ -89,8 +89,8 @@
 }
 @media screen and (max-width: 480px) {
   #header #title {
-    display: table;
-    margin-right: 5rem;
+    display: block;
+    margin-top:-25px;
     min-height: $logo-height;
     h1 {
       display: table-cell;

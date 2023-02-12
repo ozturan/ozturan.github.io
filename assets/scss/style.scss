@@ -52,13 +52,16 @@ body {
   }
   a {
     color: $color-text;
+    border-radius: 6px;
     text-decoration: none;
-    padding: 1px 0px 1px 0px;
-    background-color: #E5F1FF;
+    padding: 3px 3px 3px 3px;
+    background-color: #f4f2dc;
+    // background-color: #E5F1FF;
     // @include underline(5px, $color-text);
 
     &:hover {
-      background-color: #d7e6f6;
+      border-radius: 6px;
+      background-color: #f4f2dc;
       text-decoration: underline;
     }
   }
@@ -90,7 +93,7 @@ body {
   h5 a:hover,
   h6 a:hover {
     text-decoration: underline;
-    background-color: #E5F1FF;
+    // background-color: #E5F1FF;
   }
   h6 {
     a {

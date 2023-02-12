@@ -1,12 +1,29 @@
 {{ define "main" }}
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-<!-- TODO: gallery -->
-  <div class="content" itemprop="articleBody">
-  {{ if (eq .Type "search") }}
-    <!-- TODO: search https://gohugo.io/tools/search/ -->
-  {{ else }}
-    {{ .Content }}
-  {{ end }}
-  </div>
-</article>
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+<div id="archive">
+  <ul class="post-list">
+
+  {{ range (sort .Site.Data.publications "Date" "desc") }}
+    {{ $pageYear := .Date }}
+    {{ if (ne $pageYear ($.Scratch.Get "year" )) }}
+    {{ $.Scratch.Set "year" $pageYear }}
+    <h2>{{ $pageYear }}</h2>
+    {{ end }}
+    <li class="post-item">
+      <div class="meta">
+        {{ .journal }}
+      </div>
+      <span>    
+        <a class="" href="{{ .link }}" >{{ .title }}</a>
+        <div data-hide-no-mentions="false" class="altmetric-embed" data-badge-type="4" data-doi="{{ .doi }}" ></div>
+      <small>{{ .author }}</small> 
+      </span>
+    </li>
+    {{ end }}
+  </ul>
+
+</div>
+
+
 {{ end }}

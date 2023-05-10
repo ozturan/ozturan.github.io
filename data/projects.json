@@ -9,6 +9,11 @@
          "name": "Nobelcast",
          "url": "http://nobelcast.com/",
          "desc": "Podcast about Nobel Prizes (in Turkish)"
+      },
+       {
+         "name": "Kamera Club",
+         "url": "https://kamera.club",
+         "desc": "Blog for camera enthusiasts and photographers"
       }
    ]
 }

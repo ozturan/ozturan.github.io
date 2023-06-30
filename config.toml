@@ -32,7 +32,7 @@ summaryLength = 1
   showAllPostsArchive = false # default
 
   # Home page settings
-  description = "Hi! My name is Doğancan. I received my PhD in biomedical sciences from [Koç University](https://www.ku.edu.tr) under the supervision of [Nathan A. Lack](https://lacklab.ku.edu.tr) and currently working as a postdoctoral research fellow at [Vancouver Prostate Centre](https://www.prostatecentre.com/) in [University of British Columbia](https://ubc.ca). I’m working on transcription factor biology, mainly androgen receptor and its working mechanisms in transcription. For more, check out my [publications](publications)."
+  description = "Hi! My name is Doğancan. I received my PhD in biomedical sciences from [Koç University](https://www.ku.edu.tr) under the supervision of [Nathan A. Lack](https://lacklab.ku.edu.tr) and currently working as a postdoctoral research fellow at [University of British Columbia](https://ubc.ca). I’m working on transcription factor biology. For more, check out my [publications](publications)."
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = true # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true

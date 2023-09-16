@@ -1,8 +1,8 @@
 baseURL = "https://dogancan.org"
 languageCode = "en-us"
-title = "Doğancan Özturan"
+title = "Dogancan Ozturan"
 theme = "cactus"
-copyright = "Doğancan Özturan" # cactus will use title if copyright is not set
+copyright = "Dogancan Ozturan" # cactus will use title if copyright is not set
 disqusShortname = "dogancan" # Used when comments is enabled. Cactus will use site title if not set
 # googleAnalytics = "UA-1234-5"
 
@@ -32,7 +32,7 @@ summaryLength = 1
   showAllPostsArchive = false # default
 
   # Home page settings
-  description = "Hi! My name is Doğancan. I received my PhD in biomedical sciences from [Koç University](https://www.ku.edu.tr) under the supervision of [Nathan A. Lack](https://lacklab.ku.edu.tr) and currently working as a postdoctoral research fellow at [University of British Columbia](https://ubc.ca). I’m working on transcription factor biology. For more, check out my [publications](publications)."
+  description = "Hi! My name is Dogancan. I received my PhD in biomedical sciences from [Koç University](https://www.ku.edu.tr) and currently working as a postdoctoral research fellow at [University of British Columbia](https://ubc.ca) at [de Boer](https://deboer.bme.ubc.ca) lab. I’m working on transcription factor biology. For more, check out my [publications](publications)."
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = true # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true

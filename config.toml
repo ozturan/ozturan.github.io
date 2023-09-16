@@ -32,7 +32,7 @@ summaryLength = 1
   showAllPostsArchive = false # default
 
   # Home page settings
-  description = "Hi! My name is Dogancan. I received my PhD in biomedical sciences from [Koç University](https://www.ku.edu.tr) and currently working as a postdoctoral research fellow at [University of British Columbia](https://ubc.ca) at [de Boer](https://deboer.bme.ubc.ca) lab. I’m working on transcription factor biology. For more, check out my [publications](publications)."
+  description = "Hello! My name is Dogancan. I earned my PhD in Biomedical Sciences from [Koç University](https://www.ku.edu.tr). Currently, I am a postdoctoral research fellow at the [University of British Columbia](https://ubc.ca) in the [de Boer laboratory](https://deboer.bme.ubc.ca). My primary research focus is on transcription factor biology. For more details, please take a look at my [publications](publications)."
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = true # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true

@@ -53,14 +53,14 @@ summaryLength = 1
 
   [[params.social]]
     name = "email"
-    link = "dogancan at mail.ubc.ca"  # no need for "mailto:" in the head
+    link = "dogancan (at) mail.ubc.ca"  # no need for "mailto:" in the head
   [[params.social]]
     name = "scholar"
     link = "https://scholar.google.com/citations?user=XkJXsgkAAAAJ&hl=en&inst=17001591832933267808"
   [[params.social]]
     name = "linkedin"
     link = "https://www.linkedin.com/in/dozturan"
-  [[params.social]
+  [[params.social]]
     name = "twitter"
     link = "https://twitter.com/dogancan" 
   [[params.social]]

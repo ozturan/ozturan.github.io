@@ -23,7 +23,7 @@ html {
 body {
   margin: 0;
   height: 100%;
-  background-color: $color-background;
+  background-color: #F5F5F5;
   color: $color-text;
   font-display: swap;
   font-weight: 400;
@@ -51,17 +51,15 @@ body {
     @include hyphens(manual);
   }
   a {
-    color: $color-text;
+    color: #1011AA;
     border-radius: 6px;
     text-decoration: none;
     padding: 3px 3px 3px 3px;
-    background-color: #f4f2dc;
     // background-color: #E5F1FF;
     // @include underline(5px, $color-text);
 
     &:hover {
       border-radius: 6px;
-      background-color: #f4f2dc;
       text-decoration: underline;
     }
   }

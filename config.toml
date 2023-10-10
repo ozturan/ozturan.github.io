@@ -27,13 +27,14 @@ summaryLength = 1
 [params]
 
   colortheme = "classic" # dark, light, white, or classic
-  rss = true # generate rss feed. default value is false
+  rss = false # generate rss feed. default value is false
   googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
   showAllPostsArchive = false # default
 
   # Home page settings
   description = "Hello! My name is Dogancan. I earned my PhD in Biomedical Sciences from [Koç University](https://www.ku.edu.tr). Currently, I am a postdoctoral research fellow at the [University of British Columbia](https://ubc.ca) in the [de Boer laboratory](https://deboer.bme.ubc.ca). My primary research focus is on transcription factor biology. For more details, please take a look at my [publications](publications)."
-  mainSection = "projects" # your main section
+  mainSection = "posts" # your main section
+  mainSectionTitle = " " # your main section
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 0 # this option will be ignored if showAllPostsOnHomePage is set to true
   tagsOverview = false # show tags overview by default.

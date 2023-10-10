@@ -33,9 +33,9 @@ summaryLength = 1
 
   # Home page settings
   description = "Hello! My name is Dogancan. I earned my PhD in Biomedical Sciences from [Koç University](https://www.ku.edu.tr). Currently, I am a postdoctoral research fellow at the [University of British Columbia](https://ubc.ca) in the [de Boer laboratory](https://deboer.bme.ubc.ca). My primary research focus is on transcription factor biology. For more details, please take a look at my [publications](publications)."
-  mainSection = "posts" # your main section
+  mainSection = "projects" # your main section
   showAllPostsOnHomePage = false # default
-  postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
+  postsOnHomePage = 0 # this option will be ignored if showAllPostsOnHomePage is set to true
   tagsOverview = false # show tags overview by default.
   showProjectsList = true # show projects list by default (if projects data file exists).
   projectsUrl = "" # title link for projects list
@@ -48,7 +48,7 @@ summaryLength = 1
   showReadTime = true # default
 
   [params.comments]
-    enabled = true # default
+    enabled = false # default
     engine = "disqus" # only disqus, utterances, and cactus_comments is supported
 
   [[params.social]]

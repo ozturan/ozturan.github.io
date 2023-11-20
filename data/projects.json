@@ -1,11 +1,6 @@
 {
    "list": [
       {
-         "name": "Paperkast",
-         "url": "https://www.paperkast.com",
-         "desc": "Academic article sharing and discussion platform"
-      },
-      {
          "name": "Nobelcast",
          "url": "http://nobelcast.com/",
          "desc": "Podcast about Nobel Prizes (in Turkish)"

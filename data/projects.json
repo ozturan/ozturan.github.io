@@ -1,5 +1,10 @@
 {
    "list": [
+        {
+         "name": "Paperkast",
+         "url": "http://paperkast.com/",
+         "desc": "Paper discussion platform"
+      },
       {
          "name": "Nobelcast",
          "url": "http://nobelcast.com/",

@@ -62,5 +62,5 @@ summaryLength = 1
     name = "twitter"
     link = "https://twitter.com/dogancan" 
   [[params.social]]
-    name = "500px"
-    link = "https://500px.com/dogancan"  
+    name = "unsplash"
+    link = "https://unsplash.com/dogancan"  

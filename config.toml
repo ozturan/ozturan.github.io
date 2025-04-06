@@ -59,7 +59,7 @@ summaryLength = 1
     name = "linkedin"
     link = "https://www.linkedin.com/in/dozturan"
   [[params.social]]
-    name = "bluesky"
+    name = "fa-bluesky"
     link = "https://bsky.app/profile/dogancan.org" 
   [[params.social]]
     name = "unsplash"

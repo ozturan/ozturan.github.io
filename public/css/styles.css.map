@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "styles.css",
-	"sourceRoot": "/Users/dogancan/others/ozturan.github.io",
+	"sourceRoot": "/Users/dogancan/ozturan.github.io",
 	"sources": [
 		"assets/scss/style.scss",
 		"assets/scss/_variables.scss",
